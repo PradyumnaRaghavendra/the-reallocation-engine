@@ -1,0 +1,52 @@
+---
+target_role: "Machine Learning Engineer / AI Engineer / Agentic AI Engineer / Data Scientist at mid-size companies or funded startups"
+
+visa_constraints:
+  status: "F-1"
+  opt_start_date: "2027-01-18"
+  opt_end_date: "2028-01-17"
+  total_opt_days: 365
+  unemployment_ceiling_days: 90
+  days_used_so_far: 0
+  buffer_target_days: 80
+  target_job_start_by_day: 10
+  stem_eligible: true
+  stem_eligible_confirmed_with_dso: true
+
+geography:
+  primary_metros:
+    - Boston, MA
+    - New York City, NY
+    - Jersey City, NJ
+    - San Francisco, CA
+    - Seattle, WA
+  prefer_suburbs: true
+  remote_preference: null
+  constraints: "No specific geographic constraints; equally open to all listed metros and their suburbs"
+
+industry_preferences:
+  primary_targets:
+    - "Fintech"
+    - "Biotech"
+  secondary_targets:
+    - "Healthcare AI"
+    - "Other sectors (open)"
+  hard_exclusions:
+    - "Defense"
+    - "Reason: Requires US Citizenship for most roles; not applicable to current visa status"
+
+company_preferences:
+  mid_size_companies:
+    definition: "Non-FAANG, non-Big Tech established companies"
+    employee_count: "400+ employees"
+  funded_startups:
+    definition: "Venture-backed startups"
+    stage: "Series A and beyond"
+    employee_count: "10-500 employees"
+
+sponsorship_requirement:
+  requires_sponsorship: true
+  is_gate: true
+  note: "Employer visa sponsorship is mandatory. Companies with no documented sponsorship history will be filtered out regardless of role fit."
+
+additional_notes: "Search is aggressive given OPT timeline. Priority is landing a role within first 10 days of OPT eligibility to maintain buffer. All primary metros have robust biotech/fintech ecosystems suitable for target roles."

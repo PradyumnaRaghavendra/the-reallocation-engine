@@ -1,0 +1,186 @@
+{
+  "attested": true,
+  "attested_date": "2026-10-29",
+  "attestation_note": "Three errors corrected: (1) Missing bullet 'Collaborated with data scientists and engineers to ship ML-driven features reliably' added to Ahold Delhaize experience; (2) MLOps skill added to Cloud-Native MLOps System project technical skills; (3) GNN recommendation models achievement reworded from 'Developed' to 'Contributed to' to reflect team contribution rather than solo work",
+  "professional_experience": [
+    {
+      "title": "Software Engineer - AI/ML Co-op",
+      "company": "Ahold Delhaize USA",
+      "location": "Boston, MA",
+      "start_date": "2026-01",
+      "end_date": "2026-07",
+      "duration_months": 7,
+      "key_achievements": [
+        {
+          "description": "Contributed to building GNN-based recommendation models for 15M+ customers, lifting precision by 12%",
+          "quantified": true
+        },
+        {
+          "description": "Engineered features for deep learning retrieval models, cutting cold-start error rate by 25%",
+          "quantified": true
+        },
+        {
+          "description": "Preprocessed structured and unstructured data via imputation and normalization, cutting cleanup by 35%",
+          "quantified": true
+        },
+        {
+          "description": "Deployed production ML models via automated CI/CD, achieving 99.9% uptime",
+          "quantified": true
+        },
+        {
+          "description": "Evaluated model performance across 12+ experiments, maintaining 99.5% service availability",
+          "quantified": true
+        },
+        {
+          "description": "Collaborated with data scientists and engineers to ship ML-driven features reliably",
+          "quantified": false
+        }
+      ],
+      "technical_skills_applied": ["Python", "GNNs", "Deep Learning", "Feature Engineering", "CI/CD"]
+    },
+    {
+      "title": "Machine Learning Engineer",
+      "company": "CIoT-Polygon",
+      "location": "Bengaluru, Karnataka, India",
+      "start_date": "2023-07",
+      "end_date": "2024-08",
+      "duration_months": 13,
+      "key_achievements": [
+        {
+          "description": "Built object-oriented ML services processing 50,000+ daily transactions, achieving 86% precision",
+          "quantified": true
+        },
+        {
+          "description": "Reduced inference latency by 55% through iterative model tuning and rigorous automated testing",
+          "quantified": true
+        },
+        {
+          "description": "Automated a distributed anomaly-detection system across 2M+ records, cutting detection time by 35%",
+          "quantified": true
+        }
+      ],
+      "technical_skills_applied": ["Python", "ML Services", "Anomaly Detection", "Model Tuning"]
+    },
+    {
+      "title": "Software Engineer Intern",
+      "company": "CIoT",
+      "location": "Bengaluru, Karnataka, India",
+      "start_date": "2023-01",
+      "end_date": "2023-06",
+      "duration_months": 6,
+      "key_achievements": [
+        {
+          "description": "Optimized cloud-native AWS services with Terraform-managed IaC, cutting data inconsistencies by 42%",
+          "quantified": true
+        },
+        {
+          "description": "Delivered containerized forecasting services with Docker, reaching 84% accuracy across 20+ configs",
+          "quantified": true
+        },
+        {
+          "description": "Modernized legacy forecasting scripts into containerized microservices, cutting deployment failures by 30%",
+          "quantified": true
+        }
+      ],
+      "technical_skills_applied": ["AWS", "Terraform", "Docker", "IaC"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "AI Agent-Driven Medical Assistant Platform — RAG & Guardrail Evaluation",
+      "description": "Designed a 5-agent RAG pipeline grounding responses in medical documents with human-in-the-loop guardrails",
+      "key_achievements": [
+        "Designed a 5-agent RAG pipeline (LangGraph, Qdrant) grounding responses in 500,000+ medical documents",
+        "Established human-in-the-loop guardrails, reducing clinical hallucination rate to under 2%",
+        "Enhanced retrieval accuracy by 15% through hybrid sparse-dense search and cross-encoder reranking"
+      ],
+      "technical_skills_applied": ["LangGraph", "Qdrant", "RAG", "Agent Orchestration"]
+    },
+    {
+      "title": "Cloud-Native MLOps System — ML Pipeline Development & Deployment",
+      "description": "Architected a cloud-native MLOps pipeline with automated deployment workflows",
+      "key_achievements": [
+        "Architected a cloud-native MLOps pipeline with MLflow and DVC, cutting experiment setup time by 30%",
+        "Streamlined AWS EC2/ECR deployment through CI/CD automation, cutting release cycle time by 50%",
+        "Coordinated GitHub Actions workflows for linting and testing, cutting release effort by 25%"
+      ],
+      "technical_skills_applied": ["MLflow", "DVC", "AWS", "GitHub Actions", "CI/CD", "MLOps"]
+    },
+    {
+      "title": "Deep Learning Image Classification System",
+      "description": "Built a CNN for multi-class image classification with transfer learning and regularization",
+      "key_achievements": [
+        "Constructed a convolutional neural network for multi-class image classification using PyTorch",
+        "Trained the model with data augmentation and transfer learning, achieving 95% test accuracy",
+        "Minimized overfitting through dropout regularization and hyperparameter tuning"
+      ],
+      "technical_skills_applied": ["PyTorch", "CNNs", "Transfer Learning", "Data Augmentation"]
+    },
+    {
+      "title": "Fraud Detection Model Evaluation — Imbalanced Classification Benchmarking",
+      "description": "Evaluated multiple ML classifiers for fraud detection on imbalanced datasets with precision-recall trade-offs",
+      "key_achievements": [
+        "Compared multiple ML classifiers for fraud detection on an imbalanced dataset",
+        "Benchmarked precision-recall trade-offs to align model thresholds with business risk tolerance",
+        "Assessed minority-class detection performance through resampling techniques, reducing false positives"
+      ],
+      "technical_skills_applied": ["Imbalanced Classification", "Precision-Recall Optimization", "Resampling Techniques", "scikit-learn"]
+    },
+    {
+      "title": "Agentic Credit Decisioning & Collections Assistant (MCP-Connected)",
+      "description": "Orchestrated a multi-agent system integrating ERP, accounting, and payment-processor APIs for automated credit decisioning",
+      "key_achievements": [
+        "Orchestrated an MCP-based multi-agent system connecting ERP, accounting, and payment-processor APIs",
+        "Integrated structured-output tool calls for automated credit decisioning and collections outreach",
+        "Instituted evaluation guardrails and human-review checkpoints for reliable production-grade decisions"
+      ],
+      "technical_skills_applied": ["MCP", "Agent Orchestration", "API Integration", "Agentic AI", "Structured Output"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "MS in Information Systems",
+      "institution": "Northeastern University",
+      "location": "Boston, MA",
+      "start_date": "2024-09",
+      "end_date": "2026-12",
+      "status": "in_progress",
+      "relevant_coursework": [
+        "Agentic AI Infrastructure",
+        "High Performance Computing & Parallel ML",
+        "Data Science"
+      ]
+    },
+    {
+      "degree": "Bachelors of Technology",
+      "institution": "PES University",
+      "location": "Bangalore, India",
+      "start_date": "2019-08",
+      "end_date": "2023-05",
+      "status": "completed",
+      "relevant_coursework": [
+        "Data Structures",
+        "Machine Learning",
+        "Algorithms",
+        "Operating Systems"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Machine Learning Engineer - Associate",
+      "credential_id": "MLA-C01",
+      "status": "active"
+    }
+  ],
+  "technical_skills": {
+    "languages": ["Python (OOP)", "C++", "SQL"],
+    "machine_learning": ["scikit-learn", "XGBoost", "Pandas", "NumPy", "distributed training", "Git"],
+    "deep_learning": ["PyTorch", "CNNs", "transfer learning", "dropout regularization"],
+    "agentic_ai": ["LangChain", "CrewAI", "AutoGen", "MCP", "Langsmith", "agent orchestration"],
+    "data_modeling": ["Feature engineering", "data preprocessing", "exploratory data analysis"],
+    "model_optimization": ["Hyperparameter tuning", "cross-validation", "performance benchmarking"],
+    "pipeline_development": ["AirFlow", "Data Dog", "CI/CD", "MLOps", "FastAPI", "experiment tracking"],
+    "cloud_infrastructure": ["AWS", "Docker", "Kubernetes"]
+  }
+}
